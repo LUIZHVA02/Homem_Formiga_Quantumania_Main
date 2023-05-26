@@ -14,7 +14,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("./img/background.png");
+    background-image: url("./Img/background.png");
     padding: 100px 20px 20px 20px;
     background-size: cover;
     background-position: center;
@@ -39,11 +39,6 @@ main{
         top: 36%;
         left: 6%;
         z-index: 1;
-}
-p{
-    color: white;
-    white-space: pre;  
-    background-blend-mode: overlay;
 }
 .youtube-logo {
     position: fixed;
@@ -89,9 +84,9 @@ img {
 }
 .logo{
     position: absolute;
-    top: -150px;
+    top: -75%;
     left: 130%;
-    height: 85%;
+    height: 90%;
     width: 170%;
 }
 nav {
@@ -127,8 +122,11 @@ nav a {
     color: white;
     font-size: 150%;
     max-width: 80%;
-    margin: 10px;
-    margin-bottom: 30px;
+    margin: 3% 9%;
+    margin-bottom: 10px;
+    top: 60%;
+    white-space: pre;  
+    background-blend-mode: overlay;
 }
 
 footer {
@@ -142,7 +140,7 @@ footer {
 .creditos{
     color: white;
     height: 100px;
-    width: ;
+    width: 100px;
     background-color: green;
 }
 .video-container {
